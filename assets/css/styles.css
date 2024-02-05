@@ -219,3 +219,16 @@ img {
 
 
 /* For large devices */
+@media screen and (min-width: 1024px){
+        .header ,
+        .main,
+        .footer__container{
+            padding: 0;
+        }
+
+        .home__blob{
+            width: 320px;
+        }
+    .home_social{
+        transform: translateX(-6rem);
+    }
